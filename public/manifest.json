@@ -1,0 +1,8 @@
+{
+  "name": "Wittness Kit",
+  "short_name": "wittnesskit",
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#9a0bb1",
+  "background_color": "#1b0505"
+}
