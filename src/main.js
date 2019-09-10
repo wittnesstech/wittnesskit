@@ -5,6 +5,7 @@ import PouchDB from "pouchdb";
 import axios from "axios";
 import router from "./router";
 import appInfo from "./appInfo";
+import store from './store'
 // import "@mdi/font/css/materialdesignicons.css"; // Ensure you are using css-loader
 // import "roboto-fontface/css/roboto/roboto-fontface.css";
 // import "material-design-icons-iconfont/dist/material-design-icons.css";
@@ -37,5 +38,6 @@ Vue.config.productionTip = false;
 
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount("#app");
