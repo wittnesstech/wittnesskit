@@ -1,12 +1,7 @@
 <template>
   <v-layout align-center justify-space-around column>
-    <!-- qrewwqerewq -->
-    <div v-if="isLoading">
-      <v-progress-linear
-        :indeterminate="true"
-        color="purple"
-      ></v-progress-linear>
-    </div>
+    <v-progress-linear v-if="isLoading" :indeterminate="true" color="purple">
+    </v-progress-linear>
   </v-layout>
 </template>
 
