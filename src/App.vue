@@ -63,7 +63,9 @@ export default {
     myRoutes: routes.options.routes,
     appTitle: appInfo.title
   }),
-  created: function() {},
+  created: function() {
+    document.title = this.appTitle;
+  },
   mounted: function() {
     // console.log("app mounted :");
     // console.log("pouch :", PouchDB);

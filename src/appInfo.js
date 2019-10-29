@@ -1,2 +1,2 @@
-let appInfo = { title: "WittNess Starter Kit" };
+let appInfo = { title: "Phaser test" };
 export default appInfo;

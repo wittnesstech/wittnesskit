@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -29,6 +30,7 @@
     "material-design-icons-iconfont": "^3.0.3",
     "matter": "^0.2.0",
     "matter-js": "^0.14.2",
+    "phaser": "^3.19.0",
     "pouchdb": "^7.0.0",
     "roboto-fontface": "*",
     "vue": "^2.6.6",

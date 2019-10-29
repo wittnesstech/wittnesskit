@@ -1,6 +1,8 @@
 <template>
   <v-layout align-center justify-space-around column>
     <!-- qrewwqerewq -->
+    Phaser Game Engine Test
+    <Game />
     <div v-if="isLoading">
       <v-progress-linear
         :indeterminate="true"
@@ -12,6 +14,8 @@
 
 <script>
 import Helper from "../lib/helper";
+import Game from "@/components/Game";
+// import Phaser from "phaser";
 // import staticData from "../staticData";
 export default {
   data: () => ({
@@ -26,11 +30,7 @@ export default {
       { name: "Lateef", style: "cursive" }
     ]
   }),
-  components: {},
-  mounted: function() {
-    // console.log("ssssss", this.selectedSurah.number);
-    // this.repaint();
-  },
+  components: { Game },
   created: function() {
     // console.log("filtering...");
     // this.translationEdition = this.editionList.filter(function(x) {
