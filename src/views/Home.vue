@@ -1,5 +1,7 @@
 <template>
   <v-layout align-center justify-space-around column>
+    <Easel />
+
     <v-progress-linear v-if="isLoading" :indeterminate="true" color="purple">
     </v-progress-linear>
   </v-layout>
@@ -7,6 +9,7 @@
 
 <script>
 import Helper from "../lib/helper";
+import Easel from "./Easel";
 // import staticData from "../staticData";
 export default {
   data: () => ({
@@ -21,7 +24,7 @@ export default {
       { name: "Lateef", style: "cursive" }
     ]
   }),
-  components: {},
+  components: { Easel },
   mounted: function() {
     // console.log("ssssss", this.selectedSurah.number);
     // this.repaint();
