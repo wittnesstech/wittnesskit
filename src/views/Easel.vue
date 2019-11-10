@@ -17,7 +17,9 @@
       Blue: {{ blue }} <br />
     </p>
     <p>
-      Press <button @click="toggleRed()">button</button> to toggle red color
+      Press
+      <v-btn @click="toggleRed()">R Toggle </v-btn>
+      to toggle red color
       <br />
       Press <code>g</code> to toggle green color <br />
       Use mouse to draw lines <br />
